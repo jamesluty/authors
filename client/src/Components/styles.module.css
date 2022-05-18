@@ -1,0 +1,60 @@
+/* Home Component */
+.tableHead {
+    background-color: gainsboro;
+    border: 1px solid black;
+    padding: 10px 20px;
+}
+
+.table {
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+.pageDescription {
+    color: rgb(169,104,255);
+}
+
+.tableRow {
+    border: 1px solid black;
+    padding: 10px 20px;
+}
+
+.homeButton {
+    background: linear-gradient(180deg, rgb(247,224,201), rgb(78,98,113));
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 5px 15px;
+    margin: 0px 5px;
+    /* background: radial-gradient(); */
+}
+
+/* New Component */
+.form {
+    border: 2px solid black;
+    padding: 20px;
+    width: 200px;
+}
+
+.form p {
+    margin: 0px;
+}
+
+.buttonsDiv {
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.button {
+    background-color: rgb(102,187,255);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 5px 10px;
+}
+
+.error {
+    color: red;
+}
